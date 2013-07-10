@@ -1,3 +1,3 @@
 class Task < ActiveRecord::Base
-  attr_accessible :Due_Date, :course, :task
+  attr_accessible :due_date, :course, :task
 end

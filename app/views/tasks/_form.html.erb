@@ -13,15 +13,15 @@
 
   <div class="field">
     <%= f.label :course %><br />
-    <%= f.text_field :course %>
+    <%= f.select :course, [['CS 3240', 'CS 3240'], ['CS 3060', 'CS 3060'], ['CS 2600', 'CS 2600'], ['MATH 1210', 'MATH 1210']] %>
   </div>
   <div class="field">
     <%= f.label :task %><br />
     <%= f.text_field :task %>
   </div>
   <div class="field">
-    <%= f.label :Due_Date %><br />
-    <%= f.text_field :Due_Date %>
+    <%= f.label :due_date %><br />
+    <%= f.text_field :due_date %>
   </div>
   <div class="actions">
     <%= f.submit %>
