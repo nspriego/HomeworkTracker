@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Course:</b>
+  <%= @task.course %>
+</p>
+
+<p>
+  <b>Task:</b>
+  <%= @task.task %>
+</p>
+
+<p>
+  <b>Due date:</b>
+  <%= @task.Due_Date %>
+</p>
+
+
+<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to 'Back', tasks_path %>
